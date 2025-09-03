@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Web Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Web Portfolio</h1>
+        <p>Learning HTML step-by-step</p>
+        <nav>
+            <ul>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#contact-me">Contact Me</a></li>
+                <li><a href="#wdb">Web Development Basics</a></li>
+                <li><a href="#sample-code">Sample Code</a></li>
+                <li><a href="#weekly-schedule">Weekly Schedule</a></li>
+                <li><a href="#lab-details">Lab Details</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="contact-me">
+            <form action="#">
+                <label for="Name">Name:</label>
+                <br>
+                <input type="text" id="Name" name="Name">
+                <br><br>
+
+                <label for="Email">Email:</label>
+                <br>
+                <input type="text" id="Email" name="Email">
+                <br><br>
+
+                <label for="Color">Favorite Color:</label>
+                <br>
+                <input type="color" id="Color" name="Color">
+                <br><br>
+
+                <label for="Birthday">Birthday:</label>
+                <br>
+                <input for="date" id="Date" name="Date">
+                <br><br>
+                
+                <label for="Radio">Are you enjoying this lab?</label>
+                <br>
+                <input type="radio" id="yes" name="Radio" value="Yes">
+                <label for="yes">Yes</label>
+                <br>
+                <input type="radio" id="no" name="Radio" value="No">
+                <label for="no">No</label>
+                <br><br>
+
+                <label for="Course">Course:</label>
+                <br>
+                <select name="Course" id="Course" name="Course">
+                    <option value="">Enter your course</option>
+                    <option value="IT301">IT301</option>
+                    <option value="IT302">IT302</option>
+                    <option value="IT333">IT333</option>
+                </select>
+                <br><br>
+
+                <label for="Feedback">Any feedback?</label>
+                <br>
+                <textarea id="Feedback" name="Feedback" rows="5" cols="6"></textarea>
+                <br><br>
+
+                <button type="button">Submit</button>
+            </form>
+        </section>
+        <section id="about-me">
+            <h2>About Me</h2>
+            <figure>
+                <img src="https://img.freepik.com/premium-vector/print_1150217-428.jpg" alt="A photo of me">
+                <figcaption>This is a figure element with an image and caption</figcaption>
+            </figure>
+            <p>
+                I love web development!
+                It allows me to build cool things with just code.
+                HTML uses tags like &lt;div&gt; and &lt;section&gt; to organize content.
+            </p>
+        </section>
+        <section id="wdb">
+            <h2>Web Development Basics</h2>
+            <p>HTML stands for Hyper Text Markup Language. It structures content using tags like &lt;h1&gt;, &lt;p&gt;,
+                and &lt;img&gt;.</p>
+        </section>
+        <section id="sample-code">
+            <h2>Sample Code</h2>
+            <pre>
+function hello() {
+    console.log("Hello, world!");
+}
+            </pre>
+            <blockquote>"Web development is like magic — except it's real and you can learn it."</blockquote>
+        </section>
+        <section id="weekly-schedule">
+            <h2>Weekly Schedule</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Activity</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monday</td>
+                        <td>Lecture</td>
+                        <td>10:00 AM</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>Lab</td>
+                        <td>2:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td>Project Work</td>
+                        <td>1:00 PM</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">&copy; 2025 Logan Cherry - All rights reserved</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        <section id="lab-details">
+            <h2>Lab Details</h2>
+            <p>Lab sessions take place every Wednesday in EnGeo2203 at 2:00 PM. Attendance is required.</p>
+        </section>
+    </main>
+    <footer>
+        <pre>
+            Made with &hearts; and HTML.
+            &copy; Logan Cherry. All rights reserved.
+            Last updated: August 26, 2025
+        </pre>
+    </footer>
+</body>
+
+</html>
